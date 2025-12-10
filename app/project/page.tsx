@@ -33,6 +33,20 @@ export default function project() {
         "Responsive design",
         "Modern UI/UX"
       ]
+    },
+    {
+      title: "Anurag Makeup Artist",
+      description: "A professional makeup artist portfolio website for Anurag Chanda, showcasing services across Gurgaon, Delhi, and NCR. Built a beautiful, modern website featuring service packages, portfolio gallery, client testimonials, and appointment booking functionality.",
+      url: "https://annu-makeup.netlify.app/",
+      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      features: [
+        "Service showcase (Bridal, Party, Photoshoot)",
+        "Portfolio gallery",
+        "Client testimonials",
+        "Contact form",
+        "Responsive design",
+        "Appointment booking"
+      ]
     }
   ]
 
