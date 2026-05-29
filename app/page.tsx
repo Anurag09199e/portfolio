@@ -67,7 +67,7 @@ export default function Home() {
                     Contact Me <Mail size={18} />
                   </Button>
                 </Link>
-                <a href="https://drive.google.com/file/d/1J8514YnI85UpjrPphmGWd-iD6fcQoJDU/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1-xznrZPdL22Wf6pwkSPeP_XYUfYyGgWg/view?usp=sharing">
                   <Button size="lg" variant="outline" className="gap-2 bg-transparent">
                     Get Resume <ExternalLink size={18} />
                   </Button>
@@ -113,7 +113,7 @@ export default function Home() {
             <div className="grid md:grid-cols-4 gap-8">
               {[
                 { number: "5+", label: "Projects Completed" },
-                { number: "6+", label: "Months Experience" },
+                { number: "2", label: "Years Experience" },
                 // { number: "30+", label: "Happy Clients" },
                 { number: "100%", label: "Client Satisfaction" },
               ].map((stat, i) => (
@@ -123,10 +123,10 @@ export default function Home() {
                 </div>
               ))}
               <div className="flex justify-center items-center">
-                <Image 
-                  src="/anuu.jpeg" 
-                  alt="Anurag Parmar" 
-                  width={150} 
+                <Image
+                  src="/anuu.jpeg"
+                  alt="Anurag Parmar"
+                  width={150}
                   height={150}
                   className="rounded-full object-cover border-4 border-primary/20 shadow-lg"
                 />

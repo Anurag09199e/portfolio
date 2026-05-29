@@ -9,6 +9,19 @@ import { Badge } from "@/components/ui/badge"
 export default function project() {
   const projects = [
     {
+      title: "Sunrise Tour & Travels",
+      description: "A comprehensive travel and tourism platform for Sunrise Tour & Travels. Built a modern web application showcasing tour packages, special deals, and top destinations worldwide. Features include destination categorization, detailed package information, and responsive design for an optimal user experience.",
+      url: "https://sunrise-tour.netlify.app/",
+      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      features: [
+        "Tour package showcase",
+        "Destination categorization",
+        "Special deals section",
+        "Responsive modern UI",
+        "Fast performance"
+      ]
+    },
+    {
       title: "Elefanjoy",
       description: "An ethical elephant sanctuary website in Jaipur, India. Built a comprehensive platform showcasing elephant experiences, tours, and sanctuary information. The website features booking functionality, gallery displays, and detailed information about ethical elephant interactions.",
       url: "https://elefanjoy.com/",
